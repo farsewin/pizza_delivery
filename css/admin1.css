@@ -1,0 +1,83 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Start Variables */
+:root{
+	--text-color: #302e29;
+	--main-color: #ff9100;
+	--second-color: #858585;
+	--bg-color: #fffbf6;
+	--big-font: 4.5rem;
+	--h2-font: 2.6rem;
+	--p-font: 1.1rem;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+table tr td{
+    padding: 1%;
+}
+/* CSS for Menu */
+.menu{
+    border-bottom: 1px solid var(--second-color);
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--text-color);
+}
+.menu ul li a:hover{
+    color: var(--main-color);
+}
+
+/* CSS for main-content */
+.main{
+    margin: 1% 0;
+    padding: 3% 0;
+    background-color: #f1f2f6;
+}
+
+.col-4{
+    width: 19%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+/* CSS for FOOTER */
+.footer{
+    background-color: var(--main-color);
+    color: var(--bg-color);
+}
