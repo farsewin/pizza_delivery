@@ -31,16 +31,17 @@
 }
 
 .tbl-full{
-    width: 100%;
+    width: 50%;
 }
 
 table tr th{
     border-bottom: 1px solid black;
-    text-align: center;
+    text-align: left;
 }
 
 table tr td{
     padding: 1%;
+    text-align: center;
 }
 /* CSS for Menu */
 .menu{
